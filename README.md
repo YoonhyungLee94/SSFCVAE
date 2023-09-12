@@ -22,7 +22,7 @@ ln -s path_to_bigvgan_repo bigvgan
 ```
 
 ## Usage
-Train the CVAE model using the below command.
+To train the CVAE model, use the following command:
 
 ```python
 python train.py --gpu 0 --logdir ssf_cvae
