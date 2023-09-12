@@ -3,7 +3,8 @@ This code provides the official PyTorch implementation of the paper "_Boosting S
 
 ## Prerequisites
 * Ensure you have the VoiceBank-DEMAND dataset. You can download it [here](https://datashare.ed.ac.uk/handle/10283/2791)
-* Set up the BigVGAN vocoder. Instructions and the pre-trained model `bigvgan_22khz_80band` can be found [here](https://github.com/NVIDIA/BigVGAN)
+* Set up the BigVGAN vocoder. Instructions and the pre-trained model can be found [here](https://github.com/NVIDIA/BigVGAN)
+* We use the model `bigvgan_22khz_80band`, so please download the folder containing the weights and configurations and locate the folder in a folder named pretrained_models
 
 ## Installation
 ```bash
@@ -24,6 +25,7 @@ mkdir training_log
 # Replace 'path_to_bigvgan_repo' with the actual path to the BigVGAN repository directory
 ln -s path_to_dataset Dataset
 ln -s path_to_bigvgan_repo bigvgan
+mv __init__.py ./bigvgan
 ```
 
 ## Usage
