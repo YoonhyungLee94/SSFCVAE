@@ -27,7 +27,7 @@ def get_vocoder(model="bigvgan_22khz_80band"):
     torch.manual_seed(h.seed)
     torch.cuda.manual_seed(h.seed)
 
-    generator = Generator(h, log_mel)
+    generator = Generator(h)
     state_dict_g = load_checkpoint(f"bigvgan/pretrained_models/{model}/g_05000000")
     generator.load_state_dict(state_dict_g['generator'])
     generator.eval()
