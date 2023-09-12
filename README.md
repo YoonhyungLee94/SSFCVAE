@@ -28,5 +28,8 @@ Train the CVAE model using the below command.
 python train.py
 ```
 
+## Audio samples
+Audio samples are included in the 'samples' folder.
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
