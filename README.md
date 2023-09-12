@@ -6,7 +6,7 @@ Provide an in-depth overview of the project. Clearly explain the problem stateme
 
 ### Prerequisites
 * Download the VoiceBank-DEMAND dataset [here](https://datashare.ed.ac.uk/handle/10283/2791)
-* Prepare for using the BigVGAN vocoder [here](https://github.com/NVIDIA/BigVGAN), including the pre-trained model contained in the `bigvgan_22khz_80band' folder.
+* Prepare for using the BigVGAN vocoder [here](https://github.com/NVIDIA/BigVGAN), including the pre-trained model `bigvgan_22khz_80band`.
 
 ## Installation
 ```bash
