@@ -1,8 +1,8 @@
 # SSFCVAE
-> Official PyTorch implementation of the paper "Boosting Speech Enhancement with Clean Self-Supervised Features via Conditional Variational Autoencoders"
+---
 
 ## Introduction
-Provide an in-depth overview of the project. Clearly explain the problem statement and how this project solves it. Reference key papers, benchmarks, or metrics that your model aims to improve.
+This code provides the official PyTorch implementation of the paper "Boosting Speech Enhancement with Clean Self-Supervised Features via Conditional Variational Autoencoders", which is submitted to ICASSP 2024.
 
 ### Prerequisites
 * Download the VoiceBank-DEMAND dataset [here](https://datashare.ed.ac.uk/handle/10283/2791)
