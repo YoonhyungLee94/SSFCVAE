@@ -18,8 +18,8 @@ cd SSFCVAE
 
 # Install requirements
 pip install -r requirements.txt
-ln -s Dataset
-ln -s bigvgan
+ln -s location/of/your/dataset/including/the/VoiceBank-DEMAND/folder Dataset
+ln -s location/of/the/bigvgan/repo bigvgan
 ```
 
 ## Usage
