@@ -1,0 +1,29 @@
+### Experiment ###
+seed: 1234
+output_directory: './training_log'
+train_dir: ['./Dataset/VoiceBank-DEMAND/clean_trainset_28spk_wav']
+val_dir: ['./Dataset/VoiceBank-DEMAND/clean_testset_wav']
+
+### Audio ###
+sampling_rate: 22050
+filter_length: 1024
+hop_length: 256
+win_length: 1024
+n_spec_channels: 513
+n_mel_channels: 80
+n_w2v_channels: 1024
+mel_fmin: 0
+mel_fmax: 8000.0
+
+### Model ###
+hdim: 256
+latent_dim: 64
+n_head: 2
+d_inner: 1024
+n_layers: 6
+n_flows: 4
+
+### Optimization ###
+epochs: 200
+batch_size: 16
+learning_rate: 0.0002
