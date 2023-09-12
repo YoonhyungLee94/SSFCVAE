@@ -127,7 +127,7 @@ def validate_model(model, disc_mel, vocoder, val_dataloader, device):
             wav_pred = vocoder(mel_pred[:, :, :spec_lengths[0]].float())[0].detach().cpu().numpy()
             wav_pred_16k = librosa.resample(wav_pred, orig_sr=22050, target_sr=16000)
 
-            if i in [7, 30, 31, 45, 175, 247, 297, 418, 452, 477, 578, 736, 764, 777]:
+            if i in [30, 175, 297, 477, 578, 736]:
                 visualize_data(mel_clean[0], mel_pred[0], mel_noisy[0], iteration, f'val/sample{i}')
                 writer.add_audio(f'val/sample{i}/wav_clean',  wav_clean_16k, iteration, 16000)
                 writer.add_audio(f'val/sample{i}/wav_noisy', wav_noisy_16k, iteration, 16000)
