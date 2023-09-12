@@ -26,7 +26,7 @@ ln -s location/of/the/bigvgan/repo bigvgan
 Train the CVAE model using the below command.
 
 ```python
-python train.py
+python train.py --gpu 0 --logdir ssf_cvae
 ```
 
 ## Audio samples
