@@ -4,7 +4,7 @@ This code provides the official PyTorch implementation of the paper "_Boosting S
 ## Prerequisites
 * Ensure you have the VoiceBank-DEMAND dataset. You can download it [here](https://datashare.ed.ac.uk/handle/10283/2791)
 * Set up the BigVGAN vocoder. Instructions and the pre-trained model can be found [here](https://github.com/NVIDIA/BigVGAN)
-* Lastly, move the `__init__.py` located in `bigvgan_dummy` to the BigVGAN repo and complete the remaining stages refer to the file
+* Move the __init__.py file from the bigvgan_dummy directory to the BigVGAN repo, and complete the remaining steps using the file as a reference
 
 ## Installation
 ```bash
