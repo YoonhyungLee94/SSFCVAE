@@ -6,14 +6,8 @@ This code provides the official PyTorch implementation of the paper "_Boosting S
 * Set up the BigVGAN vocoder. Instructions and the pre-trained model ("bigvgan_22khz_80band") can be found [here](https://github.com/NVIDIA/BigVGAN)
 * Move the `__init__.py` file from the `./bigvgan_dummy` directory to the BigVGAN repository and remove the `./bigvgan_dummy` folder 
 
-## Installation
+## Usage
 ```bash
-# Clone this repository
-git clone https://github.com/YoonhyungLee94/SSFCVAE
-
-# Navigate into the directory
-cd SSFCVAE
-
 # Install required packages
 pip install -r requirements.txt
 
@@ -25,9 +19,7 @@ mkdir training_log
 # Replace 'path_to_bigvgan_repo' with the actual path to the BigVGAN repository directory
 ln -s path_to_dataset Dataset
 ln -s path_to_bigvgan_repo bigvgan
-```
 
-## Usage
 To train the CVAE model, use the following command:
 
 ```python
