@@ -13,10 +13,12 @@ git clone https://github.com/YoonhyungLee94/SSFCVAE
 # Navigate into the directory
 cd SSFCVAE
 
-# Install requirements
+# Install required packages
 pip install -r requirements.txt
-ln -s location/of/your/dataset/including/the/VoiceBank-DEMAND/folder Dataset
-ln -s location/of/the/bigvgan/repo bigvgan
+
+# Link your dataset and BigVGAN directories
+ln -s path_to_your_dataset Dataset
+ln -s path_to_bigvgan_repo bigvgan
 ```
 
 ## Usage
