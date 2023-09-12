@@ -16,8 +16,13 @@ cd SSFCVAE
 # Install required packages
 pip install -r requirements.txt
 
-# Link your dataset and BigVGAN directories
-ln -s path_to_your_dataset Dataset
+# Create a directory for training logs
+mkdir training_log
+
+# Set up symbolic links for your dataset and BigVGAN directories
+# Replace 'path_to_dataset' with the actual path to the directory containing the VoiceBank-DEMAND dataset folder
+# Replace 'path_to_bigvgan_repo' with the actual path to the BigVGAN repository directory
+ln -s path_to_dataset Dataset
 ln -s path_to_bigvgan_repo bigvgan
 ```
 
