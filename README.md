@@ -1,7 +1,7 @@
 # SSFCVAE
 This code provides the official PyTorch implementation of the paper "_Boosting Speech Enhancement with Clean Self-Supervised Features via Conditional Variational Autoencoders_", which is submitted to ICASSP 2024.
 
-### Prerequisites
+## Prerequisites
 * Ensure you have the VoiceBank-DEMAND dataset. You can download it [here](https://datashare.ed.ac.uk/handle/10283/2791)
 * Set up the BigVGAN vocoder. Instructions and the pre-trained model `bigvgan_22khz_80band` can be found [here](https://github.com/NVIDIA/BigVGAN)
 
