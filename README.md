@@ -1,5 +1,4 @@
 # SSFCVAE
----
 
 ## Introduction
 This code provides the official PyTorch implementation of the paper "Boosting Speech Enhancement with Clean Self-Supervised Features via Conditional Variational Autoencoders", which is submitted to ICASSP 2024.
