@@ -30,7 +30,7 @@ python train.py --gpu 0 --logdir ssf_cvae
 ```
 
 ## Audio samples
-Audio samples are included in the folder `./audio_samples'[./audio_samples]
+Audio samples are included in the folder [`./audio_samples'](./audio_samples)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
