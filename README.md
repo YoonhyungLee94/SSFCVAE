@@ -1,15 +1,6 @@
 # SSFCVAE
 > Official PyTorch implementation of the paper "Boosting Speech Enhancement with Clean Self-Supervised Features via Conditional Variational Autoencoders"
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Citation](#citation)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
 ---
 
 ## Introduction
