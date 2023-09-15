@@ -19,6 +19,9 @@ mkdir training_log
 # Replace 'path_to_bigvgan_repo' with the actual path to the BigVGAN repository directory
 ln -s path_to_dataset Dataset
 ln -s path_to_bigvgan_repo bigvgan
+
+# prepreocess the dataset preparing for the spectrograms and self-supervised features
+python preprocessing.py
 ```
 
 To train the CVAE model, use the following command:
