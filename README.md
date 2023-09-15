@@ -20,7 +20,7 @@ mkdir training_log
 ln -s path_to_dataset Dataset
 ln -s path_to_bigvgan_repo bigvgan
 
-# prepreocess the dataset preparing for the spectrograms and self-supervised features
+# Preprocess the dataset preparing for the spectrograms and self-supervised features
 python preprocessing.py
 ```
 
